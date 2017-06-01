@@ -45,7 +45,7 @@ int main(int argc, const char * argv[]) {
     
     int ct = 9;
     int &ck = ct;   //ck 是ct  的别名
-    //int &ckk = 9;  //这样子不行
+    //int &ckk = 9;  //这样子不行 为什么不行下面有解释
     std::cout<< ck; //输出 9
     
     
@@ -124,12 +124,12 @@ int main(int argc, const char * argv[]) {
     const int ij =3;
     auto jf = ij;    //这里 auto  推断 ij 为 int 类型  忽略掉了 const  这是auto 的特性 会忽略上层 const
     const auto jff = ij; //这样才能保证和ij 类型一至
-    jff = 9;
-    cout<<"这里注意"<<jff;
+    //jff = 9;
+    //cout<<"这里注意"<<jff;
     
-    cout<< if << " " << jf <<endl;   //输出 3  3
-    jf++;
-    cout<< if << " " << jf << endl;  //输出 3  4
+    //cout<< if << " " << jf <<endl;   //输出 3  3
+    //jf++;
+    //cout<< if << " " << jf << endl;  //输出 3  4
     
     
     

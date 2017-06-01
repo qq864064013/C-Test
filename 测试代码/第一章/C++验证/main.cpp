@@ -13,15 +13,18 @@ int main(int argc, const char * argv[]) {
   
     using namespace std;
     
-    vector<string> k = {"a","bs","cc"};
     
-    cout<<&k<<endl;
+    int x[10]; int *p = x;
     
-    vector<string>::iterator ki = k.begin();
+    cout<<sizeof(x)<<endl;
+    cout<<sizeof(p)<<endl;
+    cout<<sizeof(*p)<<endl;
     
-    cout<<*ki<<endl;
     
-
+    
+    
+    
+    
     
     
     

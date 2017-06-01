@@ -12,6 +12,9 @@
 		2AAE2F431ED84250008C5E3F /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE2F421ED84250008C5E3F /* main.mm */; };
 		2AAE2F591ED91A7B008C5E3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE2F581ED91A7B008C5E3F /* main.cpp */; };
 		2AAE2F641ED96BB5008C5E3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE2F631ED96BB5008C5E3F /* main.cpp */; };
+		2AAE2F6F1EDE6B52008C5E3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE2F6E1EDE6B52008C5E3F /* main.cpp */; };
+		2AAE2F7B1EDE70E9008C5E3F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE2F7A1EDE70E9008C5E3F /* main.c */; };
+		2AAE2F861EDE9398008C5E3F /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE2F851EDE9398008C5E3F /* main.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +63,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		2AAE2F6A1EDE6B52008C5E3F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2AAE2F761EDE70E8008C5E3F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2AAE2F811EDE9398008C5E3F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +103,12 @@
 		2AAE2F581ED91A7B008C5E3F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2AAE2F611ED96BB5008C5E3F /* 容器vector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "容器vector"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAE2F631ED96BB5008C5E3F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2AAE2F6C1EDE6B52008C5E3F /* 数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAE2F6E1EDE6B52008C5E3F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2AAE2F781EDE70E8008C5E3F /* C验证 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C验证"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAE2F7A1EDE70E9008C5E3F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2AAE2F831EDE9398008C5E3F /* 混编验证 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "混编验证"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAE2F851EDE9398008C5E3F /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,17 +147,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2AAE2F691EDE6B52008C5E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAE2F751EDE70E8008C5E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAE2F801EDE9398008C5E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2A7E0ADB1ED6AD6300ED785E = {
 			isa = PBXGroup;
 			children = (
+				2AAE2F731EDE70C3008C5E3F /* 语法验证 */,
 				2A7E0AF31ED6AE4400ED785E /* 变量 */,
 				2AAE2F311ED81468008C5E3F /* 指针 */,
-				2AAE2F411ED84250008C5E3F /* OC基础 */,
-				2AAE2F571ED91A7A008C5E3F /* C++验证 */,
 				2AAE2F621ED96BB5008C5E3F /* 容器vector */,
+				2AAE2F6D1EDE6B52008C5E3F /* 数组 */,
 				2A7E0AE51ED6AD6300ED785E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,6 +191,9 @@
 				2AAE2F401ED8424F008C5E3F /* OC基础 */,
 				2AAE2F561ED91A7A008C5E3F /* C++验证 */,
 				2AAE2F611ED96BB5008C5E3F /* 容器vector */,
+				2AAE2F6C1EDE6B52008C5E3F /* 数组 */,
+				2AAE2F781EDE70E8008C5E3F /* C验证 */,
+				2AAE2F831EDE9398008C5E3F /* 混编验证 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,6 +236,41 @@
 				2AAE2F631ED96BB5008C5E3F /* main.cpp */,
 			);
 			path = "容器vector";
+			sourceTree = "<group>";
+		};
+		2AAE2F6D1EDE6B52008C5E3F /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				2AAE2F6E1EDE6B52008C5E3F /* main.cpp */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
+		2AAE2F731EDE70C3008C5E3F /* 语法验证 */ = {
+			isa = PBXGroup;
+			children = (
+				2AAE2F841EDE9398008C5E3F /* 混编验证 */,
+				2AAE2F791EDE70E8008C5E3F /* C验证 */,
+				2AAE2F411ED84250008C5E3F /* OC基础 */,
+				2AAE2F571ED91A7A008C5E3F /* C++验证 */,
+			);
+			name = "语法验证";
+			sourceTree = "<group>";
+		};
+		2AAE2F791EDE70E8008C5E3F /* C验证 */ = {
+			isa = PBXGroup;
+			children = (
+				2AAE2F7A1EDE70E9008C5E3F /* main.c */,
+			);
+			path = "C验证";
+			sourceTree = "<group>";
+		};
+		2AAE2F841EDE9398008C5E3F /* 混编验证 */ = {
+			isa = PBXGroup;
+			children = (
+				2AAE2F851EDE9398008C5E3F /* main.mm */,
+			);
+			path = "混编验证";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +361,57 @@
 			productReference = 2AAE2F611ED96BB5008C5E3F /* 容器vector */;
 			productType = "com.apple.product-type.tool";
 		};
+		2AAE2F6B1EDE6B52008C5E3F /* 数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAE2F721EDE6B52008C5E3F /* Build configuration list for PBXNativeTarget "数组" */;
+			buildPhases = (
+				2AAE2F681EDE6B52008C5E3F /* Sources */,
+				2AAE2F691EDE6B52008C5E3F /* Frameworks */,
+				2AAE2F6A1EDE6B52008C5E3F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数组";
+			productName = "数组";
+			productReference = 2AAE2F6C1EDE6B52008C5E3F /* 数组 */;
+			productType = "com.apple.product-type.tool";
+		};
+		2AAE2F771EDE70E8008C5E3F /* C验证 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAE2F7C1EDE70E9008C5E3F /* Build configuration list for PBXNativeTarget "C验证" */;
+			buildPhases = (
+				2AAE2F741EDE70E8008C5E3F /* Sources */,
+				2AAE2F751EDE70E8008C5E3F /* Frameworks */,
+				2AAE2F761EDE70E8008C5E3F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C验证";
+			productName = "C验证";
+			productReference = 2AAE2F781EDE70E8008C5E3F /* C验证 */;
+			productType = "com.apple.product-type.tool";
+		};
+		2AAE2F821EDE9398008C5E3F /* 混编验证 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAE2F871EDE9398008C5E3F /* Build configuration list for PBXNativeTarget "混编验证" */;
+			buildPhases = (
+				2AAE2F7F1EDE9398008C5E3F /* Sources */,
+				2AAE2F801EDE9398008C5E3F /* Frameworks */,
+				2AAE2F811EDE9398008C5E3F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "混编验证";
+			productName = "混编验证";
+			productReference = 2AAE2F831EDE9398008C5E3F /* 混编验证 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -301,6 +447,21 @@
 						DevelopmentTeam = 7PF88DNJLE;
 						ProvisioningStyle = Automatic;
 					};
+					2AAE2F6B1EDE6B52008C5E3F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7PF88DNJLE;
+						ProvisioningStyle = Automatic;
+					};
+					2AAE2F771EDE70E8008C5E3F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7PF88DNJLE;
+						ProvisioningStyle = Automatic;
+					};
+					2AAE2F821EDE9398008C5E3F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7PF88DNJLE;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 2A7E0ADF1ED6AD6300ED785E /* Build configuration list for PBXProject "第一章" */;
@@ -320,6 +481,9 @@
 				2AAE2F3F1ED8424F008C5E3F /* OC基础 */,
 				2AAE2F551ED91A7A008C5E3F /* C++验证 */,
 				2AAE2F601ED96BB5008C5E3F /* 容器vector */,
+				2AAE2F6B1EDE6B52008C5E3F /* 数组 */,
+				2AAE2F771EDE70E8008C5E3F /* C验证 */,
+				2AAE2F821EDE9398008C5E3F /* 混编验证 */,
 			);
 		};
 /* End PBXProject section */
@@ -362,6 +526,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AAE2F641ED96BB5008C5E3F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAE2F681EDE6B52008C5E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAE2F6F1EDE6B52008C5E3F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAE2F741EDE70E8008C5E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAE2F7B1EDE70E9008C5E3F /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAE2F7F1EDE9398008C5E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAE2F861EDE9398008C5E3F /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +726,54 @@
 			};
 			name = Release;
 		};
+		2AAE2F701EDE6B52008C5E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7PF88DNJLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AAE2F711EDE6B52008C5E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7PF88DNJLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AAE2F7D1EDE70E9008C5E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7PF88DNJLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AAE2F7E1EDE70E9008C5E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7PF88DNJLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AAE2F881EDE9398008C5E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7PF88DNJLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AAE2F891EDE9398008C5E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7PF88DNJLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -566,6 +802,7 @@
 				2AAE2F351ED81468008C5E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AAE2F441ED84250008C5E3F /* Build configuration list for PBXNativeTarget "OC基础" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +811,7 @@
 				2AAE2F461ED84250008C5E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AAE2F5A1ED91A7B008C5E3F /* Build configuration list for PBXNativeTarget "C++验证" */ = {
 			isa = XCConfigurationList;
@@ -582,12 +820,38 @@
 				2AAE2F5C1ED91A7B008C5E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AAE2F651ED96BB5008C5E3F /* Build configuration list for PBXNativeTarget "容器vector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AAE2F661ED96BB5008C5E3F /* Debug */,
 				2AAE2F671ED96BB5008C5E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AAE2F721EDE6B52008C5E3F /* Build configuration list for PBXNativeTarget "数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAE2F701EDE6B52008C5E3F /* Debug */,
+				2AAE2F711EDE6B52008C5E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AAE2F7C1EDE70E9008C5E3F /* Build configuration list for PBXNativeTarget "C验证" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAE2F7D1EDE70E9008C5E3F /* Debug */,
+				2AAE2F7E1EDE70E9008C5E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AAE2F871EDE9398008C5E3F /* Build configuration list for PBXNativeTarget "混编验证" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAE2F881EDE9398008C5E3F /* Debug */,
+				2AAE2F891EDE9398008C5E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
