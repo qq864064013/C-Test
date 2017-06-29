@@ -33,7 +33,7 @@ int main(int argc, const char * argv[]) {
     */
     
     const int anf = 233;
-    //int *kp = &anf;  // 不能这么搞 anf 是常亮 任何尝试修改anf值得操作的都是不被允许的
+    //int *kp = &anf;  // 不能这么搞 anf 是常量 任何尝试修改anf值得操作的都是不被允许的
     
     
     

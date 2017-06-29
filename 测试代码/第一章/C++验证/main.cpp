@@ -21,12 +21,5 @@ int main(int argc, const char * argv[]) {
     cout<<sizeof(*p)<<endl;
     
     
-    
-    
-    
-    
-    
-    
-    
     return 0;
 }

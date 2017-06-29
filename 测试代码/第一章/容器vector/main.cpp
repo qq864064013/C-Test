@@ -20,7 +20,6 @@ int main(int argc, const char * argv[]) {
     vector<std::string> m4(m2); // 同样是复制 m2 的一个副本 和上面效果一样
     vector<std::string> m5(10,"a") ;  //10 个重复的 字符串 a 的容器
     vector<std::string> m6(5); // 初始化 5 个容量的 容器
-    
     vector<std::string> *p = &m3;
     
     
@@ -28,10 +27,6 @@ int main(int argc, const char * argv[]) {
     iter = m2.begin(); //获取m2的迭代器 根据 <string>   <const string> 返回的迭代器类型不同
     //iter = m2.cbegin(); // 获取m2 的const 迭代器；
     
- 
-    
-    
-    
-    
+
     return 0;
 }
